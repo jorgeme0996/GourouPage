@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/styles/index.css">
+    <script src="https://kit.fontawesome.com/0dd6f44fa8.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Gourou || Experiencias web || Apps Moviles || Manejo de redes sociales</title>
 </head>
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #FFFCFC;">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #FFFCFC;">
         <a class="navbar-brand" href="#">
             <img src="/assets/logo.png" width="150" height="50" class="d-inline-block align-top" alt="">
         </a>
@@ -19,10 +20,10 @@
         
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto"></ul>
-            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">Nuestros Servicios </a>
-            <a class="nav-link" href="#">¿Quienes somos? </a>
-            <a class="nav-link" href="#">Contacto </a>
+            <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#servicios">Nuestros Servicios </a>
+            <a class="nav-link" href="#about">¿Quiénes somos? </a>
+            <a class="nav-link" href="#formulario">Contacto </a>
         </div>
     </nav>
 
@@ -38,7 +39,7 @@
                             Creación e inovación de soluciones tecnológicas
                         </p> 
                         <div class="cont-btn-header">
-                            <button type="button" class="btn btn-lg btn-outline-success">Contactanos</button>
+                            <a class="btn btn-outline-success btn-lg" role="button">Contáctanos</a>
                         </div> 
                     </div>
                 </div>
@@ -55,7 +56,7 @@
                 <h2 class="text-center">Marketing Digital</h2>
                 <p>
                     Desarrollamos e implementamos estrategias de marketing,
-                    apoyandonos por herramientas digitales, para lograr tus metas
+                    apoyándonos con herramientas digitales, para lograr tus metas.
                 </p>
             </div>
             <div class="card card-5 p-3">
@@ -68,8 +69,8 @@
             <div class="card card-5 p-3">
                 <h2 class="text-center">Realidad virtual</h2>
                 <p>
-                    Estamos listos para transportarte a el mundo imagines, con está avanzada
-                    tecnología, tu imaginación es la unica frontera.
+                    Estamos listos para transportarte a el mundo imagines, con esta avanzada
+                    tecnología, tu imaginación es la única frontera.
                 </p>
             </div>
             <div class="card card-5 p-3">
@@ -83,13 +84,13 @@
                 <h2 class="text-center">Videojuegos</h2>
                 <p>
                     Imagina mundos, imagina escenas, imagina personajes y nostros los
-                    hacemos realidad en algo divertido, educativo, didactico.
+                    hacemos realidad en algo divertido, educativo, didáctico.
                 </p>
             </div>
             <div class="card card-5 p-3">
-                <h2 class="text-center">Experiencias Moviles</h2>
+                <h2 class="text-center">Experiencias Móviles</h2>
                 <p>
-                    Lleva esa experiencia que quieres compartir con el mundo, al bolsillo
+                    Lleva esa experiencia que quieres compartir con el mundo al bolsillo
                     de todas las personas.
                 </p>
             </div>
@@ -104,10 +105,10 @@
                 </div>
                 <div class="col-md-6">
                     <div id="cont-txt-center">
-                        <h2>¿Quienes somos?</h2>
+                        <h2>¿Quiénes somos?</h2>
                         <p>
                             Somos un equipo comprometido con tu empresa, proyecto, desarrollo, campaña,
-                            en la cual encontraras integridad y pasión en nuetro trabajo. Siempre
+                            en la cual encontraras integridad y pasión en nuestro trabajo. Siempre
                             enfocados a tus necesidades.
                         </p>  
                         <div id="empresas">
@@ -126,11 +127,11 @@
             <h2 style="text-align: center;" id="header-tittle-text">Contacto</h2>
             <p id="header-tittle-p">
                 Pon en marcha ese proyecto que siempre has deseado, esa idea que siempre ronda 
-                tu mente, contactanos. Queremos ayudarte a conseguir tus metas
+                tu mente, contáctanos. Queremos ayudarte a conseguir tus metas
             </p>
             <div class="row">
                 <div class="col-md-6">
-                    <form class="needs-validation" id="form">
+                    <form class="needs-validation">
                         <div class="form-row mt-3">
                             <div class="col">
                                 <label>Nombre</label>
@@ -140,8 +141,8 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <label>Telefono</label>
-                                <input type="text" class="form-control" id="razonSocial" placeholder="Tel a 10 digitos">
+                                <label>Teléfono</label>
+                                <input type="number" class="form-control" id="razonSocial" placeholder="Tel a 10 digitos">
                             </div>
                         </div>
                         <div class="form-row mt-3">
@@ -153,11 +154,11 @@
                     </form>
                 </div>
                 <div class="col-md-6">
-                    <div id="cont-txt-center" class="pr-5">
-                        <h3 class="mt-3">
+                    <div id="cont-txt-center">
+                        <h3 id="txt-change">
                             Tel. (55)7912-2638
                         </h3>
-                        <h3 class="mt-3">
+                        <h3 class="mt-3" id="txt-change">
                             Envianos un email: contacto@gourou.com.mx
                         </h3>
                     </div>
@@ -165,6 +166,29 @@
             </div>
         </div>
     </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 cont-img-footer">
+                    <img width="50%" src="/assets/svg/gourou_256_blanco.svg">
+                </div>
+                <div class="col-6">
+                    <div class="row cont-social-footer">
+                        <div class="col-4">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <div class="col-4">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="col-4">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

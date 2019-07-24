@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
 
-* {
-    box-sizing: border-box;
-}
-
 body {
-    margin: 0;
     font-size: 1rem;
     line-height: 1.5;
     color: #333;
     overflow-x: hidden;
+}
+
+#header{
+    margin-top: 100px;
 }
 
 #header-tittle-text{
@@ -91,9 +90,25 @@ body {
     opacity: 0.7;
 }
 
+footer {
+    background-color: #3d0814;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.fab {
+    color: white;
+    font-size: 40px;
+}
+
+.cont-social-footer {
+    position: relative;
+    top:40%; 
+}
+
 @media only screen and (max-width: 768px) {
     #header-tittle{
-        top: 10%;
+        top: 0%;
     }
 
     .card {
@@ -101,6 +116,18 @@ body {
     }
 
     #cont-txt-center {
+        top: 0%;
+    }
+    
+    .fab {
+        font-size: 20px;
+    }
+
+    .cont-social-footer {
         top: 10%;
+    }
+
+    #txt-change {
+        font-size: 24px;
     }
 }
