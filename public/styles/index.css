@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    overflow-x: hidden;
+}
+
+#header-tittle-text{
+    font-family: 'Signika', sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+}
+
+.bg-dark {
+    background-color: #a67f8e !important;
+}
+
+#header-tittle{
+    position: relative;
+    top: 30%;
+}
+
+#header-tittle-p {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px !important; 
+    display: inline-block;
+    margin: 1rem;
+    position: relative;
+    width: 300px;
+}
+
+.card-5 {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.cont-servicios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cont-btn-header{
+    display: flex;
+    justify-content: start;
+}
+
+.nav-link {
+    color: #3d0814;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+#about {
+    font-family: 'Signika', sans-serif;
+    background-color: #a67f8e;
+}
+
+#cont-txt-center {
+    position: relative;
+    top: 30%;
+}
+
+@media only screen and (max-width: 768px) {
+    #header-tittle{
+        top: 10%;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
