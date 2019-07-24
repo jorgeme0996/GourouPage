@@ -81,6 +81,16 @@ body {
     top: 30%;
 }
 
+#empresas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.opacity {
+    opacity: 0.7;
+}
+
 @media only screen and (max-width: 768px) {
     #header-tittle{
         top: 10%;
@@ -88,5 +98,9 @@ body {
 
     .card {
         width: 100%;
+    }
+
+    #cont-txt-center {
+        top: 10%;
     }
 }
